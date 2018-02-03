@@ -5,5 +5,4 @@ MAINTAINER david gandor@qq.com
 RUN apt-get update
 RUN apt-get install python3-pip -y
 RUN pip3 install --upgrade pip
-RUN pip3 install mxnet-cu90mkl numpy pyyaml -i https://pypi.douban.com/simple/
-
+RUN pip3 install mxnet-cu90mkl numpy pyyaml -i https://mirrors.aliyun.com/pypi/simple/
